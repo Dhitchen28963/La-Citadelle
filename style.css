@@ -6,30 +6,17 @@
 * { 
   margin: 0; 
   padding: 0; 
+  box-sizing: border-box;
 }
 
 h1 { 
   text-align: center; 
-  color: #ffffff; 
+  color: #000000; 
   font-family: 'Italianno'; 
   font-size: 75px; 
   letter-spacing: 2px; 
   margin: 0; 
   padding: 0; 
-} 
-
-header p { 
-  color: #ffffff; 
-  text-align: center; 
-  font-family: 'Italianno'; 
-  font-size: 50px; 
-  padding-bottom: 2px; 
-} 
-
-header { 
-  background-image: url('../assets/images/header-image1.jpg'); 
-  position: relative; 
-  height: 35vh; 
 } 
 
 #nav-menu { 
@@ -53,108 +40,6 @@ header {
   padding: 1rem; 
   margin-top: 20px; 
   margin-bottom: 30px; 
-} 
-
-h2 { 
-  text-transform: uppercase; 
-  text-align: center; 
-  margin-top: 20px; 
-} 
-
-main p {
-  margin: 6px;
-  letter-spacing: 2px;
-  word-spacing: 1px;
-  
-}
-
-#about h2, h3 { 
-  font-family: 'Lato'; 
-  font-size: 20px; 
-  letter-spacing: 1px; 
-  margin-top: 15px;
-  margin: 5px;
-  padding: 0; 
-} 
-
-#about p { 
-  font-family: 'Lato'; 
-  font-size: 11px; 
-  letter-spacing: 1px; 
-  margin-top: 15px; 
-  padding: 0; 
-} 
-
-#book-now h2 { 
-  font-family: 'Lato'; 
-  font-size: 20px; 
-  letter-spacing: 2px; 
-  margin-top: 15px; 
-  padding: 0; 
-} 
-
-#book-now p { 
-  font-family: 'Lato'; 
-  font-size: 11px; 
-  letter-spacing: 1px; 
-  margin-top: 15px; 
-  padding: 0; 
-} 
-
-#events h2, h3 { 
-  font-family: 'Lato'; 
-  font-size: 20px; 
-  letter-spacing: 2px; 
-  margin-top: 15px; 
-  padding: 0; 
-} 
-
-h4 { 
-  font-family: 'Lato'; 
-  font-size: 15px; 
-  letter-spacing: 2px; 
-  margin-top: 15px; 
-  padding: 0; 
-} 
-
-#events li { 
-  font-family: 'Lato'; 
-  font-size: 11px; 
-  letter-spacing: 1px; 
-  margin-top: 15px; 
-  padding: 0; 
-} 
-
-/* Events section */ 
-
-#event { 
-  background-image: url("assets/images/fine-dining-image.jpg"); 
-  background-size: cover; 
-  background-repeat: no-repeat; 
-  background-position: center center; 
-  width: 100%; 
-  height: auto; 
-  }  
-
-#events p { 
-  font-family: 'Lato'; 
-  font-size: 11px; 
-  letter-spacing: 1px; 
-  margin-top: 15px; 
-  padding: 0; 
-} 
-
-/* Gallery section scrolling photos */ 
-
-div.scroll-container { 
-  overflow: auto; 
-  white-space: nowrap; 
-  padding: 10px;
-} 
-
-div.scroll-container img { 
-  padding: 10px; 
-  margin: 0;  
 } 
 
 /* Footer */ 
